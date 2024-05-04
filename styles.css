@@ -1,0 +1,209 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+24&family=Pixelify+Sans:wght@400..700&display=swap');
+
+
+/* oswald,Jacquard 24 charted, Jersey 10, Jacquard 24 */
+*{
+    box-sizing: border-box;
+    font-family: "Pixelify Sans", sans-serif;
+}
+body{
+    min-height: 100vh;
+    flex-direction: column;
+    font-weight: 400;
+    margin: 0;
+}
+h2{
+    text-align: center;
+    margin: 10px;
+    font-size: 36px;
+}
+div{
+    margin: 0 auto;
+    flex: 1;
+    width: 1500px;
+}
+div.outer{
+    width: 100%;
+    background-color: #030303;
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto;
+    gap: 30px;
+}
+ul{
+    display: flex;
+
+}
+ul li{
+    list-style: none;
+    
+}
+ ul li+li{
+    margin-left: 20px;
+ }
+ul li a {
+    text-decoration: none;
+    color: #d3cfc3;
+    font-size: 18px;
+}
+.header{
+    flex: 0 1 0;
+    font-size: 18px;
+    color: #d3cfc3;
+    display: flex;
+    justify-content: space-between;
+}
+.header p{
+    font-size: 24px;
+    color:#d3cfc3;
+}
+.hero_inner{
+    display: flex;
+    flex: 0;
+}
+.hero-left{
+    margin: initial;
+  margin-left: 200px;
+}
+.hero-left h1{
+    font-size: 42px;
+    color: lightgray;
+    margin: 0;
+}
+.hero-left p{
+    color: #d3cfc3;
+    font-size: 18px;
+}
+.hero-right{
+    flex: 0 1 0;
+}
+.media{
+    width: 400px;
+    height: auto;
+    margin: initial; /*HAD TO GET RID OF PREVIOUS MARGINS TO WORK BY SETTING INITIAL WHICH REMOVES PREVIOUS MARGINS >:( */
+    margin-left: 150px;
+}
+.hero-right img{
+    width: 100%;
+    height: auto;
+}
+.sign-up{
+font-size: 20px;
+}
+.logo{
+    width: 100px;
+    height: 30px;
+    
+}
+.logo img{
+    width: 20%;
+    height: auto;
+}
+#cards{
+    display: flex;
+    width: 1100px;
+    flex: 0 0 auto;
+    margin-bottom: 70px;
+}
+#cards .card{
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto;
+}
+.card .card-frame{
+ width: 100%;
+ object-fit: contain;
+ border-radius: 50%;
+ overflow: hidden;
+}
+.card-frame img{
+    object-fit: cover;
+}
+.card p{
+    text-align: center;
+}
+.card p span{
+    color: red;
+}
+img{
+    
+    height: 100%;
+    width: 100%;
+}
+.quote-cont-outer{
+    padding-block: 5em;
+    width: 100%;
+    flex: 0 1 0;
+    display: flex;
+    flex-direction: column;
+    background-color:#E5E7EB;
+    margin-bottom: 70px;
+}
+.quote-cont{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    font-size: 48px;
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+    margin: initial;
+}
+.quote-cont p{
+    display: inline;
+    margin: initial;
+    margin-left: 50%;
+    font-size: 40px;
+    font-style: italic;
+}
+#box-cont{
+    width: 1000px;
+    background-color: #c6a25a;
+    color: white;
+    flex: 0 0 0;
+    display: flex;
+    border-radius: 10px;
+margin-bottom: 80px;
+}
+#box-cont .box{
+display: flex;
+flex-direction: column;
+}
+.box h4,p{
+    margin: 5px;
+    
+}
+.box h4{
+    font-size: 32px;
+}
+.box p{
+    font-size: 20px;
+}
+#box-cont button{
+    align-self: center;
+    padding-inline: 20px;
+    padding-block: 3px;
+    border-radius: 3px;
+    font-size: 20px;
+    
+}
+#box-cont .box2{
+    justify-content: center;
+  display: flex;
+    flex: 0 0 30%;
+}
+#footer{
+    padding: 1em;
+    text-align: center;
+    background-color: #030303;
+    color: white;
+    font-size: 24px;
+    width: 100%;
+}
